@@ -41,9 +41,15 @@ public class CustomerService implements ICustomerService {
         customers.put(id, customer);
 
     }
-
+    // override dùng để
     @Override
+//    public void remove(int id) {
+//        customers.remove(id);
+//    }
     public void remove(int id) {
         customers.remove(id);
     }
+    //phương thức tạo kết nối với database
+    // cách dùng delete
+   // public static Connection getConnection() {
 }
